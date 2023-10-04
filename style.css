@@ -1,10 +1,3 @@
-.header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 0;
-}
-
 body {
     background-color: #fffbf7;
 }
@@ -25,32 +18,67 @@ button {
     background-color: #025157;
 }
 
-li{
-    display: inline;
+header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0;
 }
 
 .header > * {
     display: inline-block;
     font-size: 16px;
     vertical-align: middle;
-    height: 100px;
+    height: 100%;
     line-height: 45px;
 }
 
 .logo > img {
-    width: 100%;
+    width: 90%;
 }
 
-.navbar{
-    width: 50%;
+.navbar {
+    width: 70%;
     text-align: center;
     color: #025157;
     font-weight: 500;
 }
 
-.actions {
-    width: 20%;
+.actions{
+    width: 15%;
     text-align: right;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
+}
+
+.publish {
+    /* container styles if any */
+}
+
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publish > form {
+    display: flex;
+}
+
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+
+.promo {
+    display: flex;
+    width: 70%;
 }
